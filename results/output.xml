@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-10-05T14:23:09.704796" rpa="false" schemaversion="5">
+<suite id="s1" name="Tester" source="C:\DII\1-67\tester">
+<suite id="s1-s1" name="Test01" source="C:\DII\1-67\tester\Test01.robot">
+<test id="s1-s1-t1" name="Example variables" line="7">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-10-05T14:23:09.739750" level="INFO">${ } = Hello world</msg>
+<var>${ }</var>
+<arg>Hello world</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-10-05T14:23:09.739750" elapsed="0.000000"/>
+</kw>
+<kw name="example test keyword">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-05T14:23:09.740818" level="INFO">Hello world</msg>
+<arg>${data}</arg>
+<arg>console=true</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-05T14:23:09.740818" elapsed="0.001008"/>
+</kw>
+<arg>${ }</arg>
+<status status="PASS" start="2024-10-05T14:23:09.740818" elapsed="0.001008"/>
+</kw>
+<kw name="example login user">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-05T14:23:09.742827" level="INFO">robot framework</msg>
+<arg>robot framework</arg>
+<arg>console=true</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-05T14:23:09.741826" elapsed="0.001001"/>
+</kw>
+<status status="PASS" start="2024-10-05T14:23:09.741826" elapsed="0.002002"/>
+</kw>
+<tag>test1</tag>
+<status status="PASS" start="2024-10-05T14:23:09.738747" elapsed="0.005081"/>
+</test>
+<test id="s1-s1-t2" name="Example keyword" line="13">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-10-05T14:23:09.745024" level="INFO">${ } = Hello world1</msg>
+<var>${ }</var>
+<arg>Hello world1</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-10-05T14:23:09.743828" elapsed="0.001196"/>
+</kw>
+<kw name="example test keyword">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-05T14:23:09.746168" level="INFO">Hello world1</msg>
+<arg>${data}</arg>
+<arg>console=true</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-05T14:23:09.745024" elapsed="0.001144"/>
+</kw>
+<arg>${ }</arg>
+<status status="PASS" start="2024-10-05T14:23:09.745024" elapsed="0.001144"/>
+</kw>
+<kw name="example login user">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-05T14:23:09.747332" level="INFO">robot framework</msg>
+<arg>robot framework</arg>
+<arg>console=true</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-05T14:23:09.747332" elapsed="0.000505"/>
+</kw>
+<status status="PASS" start="2024-10-05T14:23:09.746168" elapsed="0.001669"/>
+</kw>
+<tag>test2</tag>
+<status status="PASS" start="2024-10-05T14:23:09.743828" elapsed="0.004009"/>
+</test>
+<status status="PASS" start="2024-10-05T14:23:09.722356" elapsed="0.026881"/>
+</suite>
+<status status="PASS" start="2024-10-05T14:23:09.707790" elapsed="0.042454"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">test1</stat>
+<stat pass="1" fail="0" skip="0">test2</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Tester">Tester</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Test01">Tester.Test01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
