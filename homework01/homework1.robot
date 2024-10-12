@@ -1,9 +1,5 @@
 *** Settings ***
-Library     OperatingSystem
-Library     Collections
-Library     String
-Library     CSVLibrary
-Library     SeleniumLibrary
+Resource    /DII/1-67/tester/CAMTxKrungsriNimble/homework01/iimport.resource
 Variables   /DII/1-67/tester/CAMTxKrungsriNimble/data.yaml
 Variables   /DII/1-67/tester/CAMTxKrungsriNimble//homework01/productData.yaml
 
